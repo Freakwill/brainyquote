@@ -1,0 +1,22 @@
+
+- !!python/object:pybrainyquote.Quote
+  text: >
+    人必须更成熟些，才能够发现不加修饰的风光和紫云英的馨香的价值。如果这种香味沾染在他身上，也是不知不觉的，后一段时间，他的魅力才能渐渐发生作用。
+  topic: Virtue
+  author: &RR Romain Rolland
+  info: >
+    [France]Romain Rolland《母与子》
+
+- !!python/object:pybrainyquote.Quote
+  text: >
+    No one has ever read a book, only one in the book to read themselves, to find themselves or to check their own.
+  topic: Unknown
+  author: *RR
+
+
+- !!python/object:pybrainyquote.Quote
+  text: 谴责自己的过错比谴责别人的过错好。
+  topic: Respect
+  author: Δημόκριτος
+  info: >
+    [Ancient Greek]Δημόκριτος《著作残篇》
