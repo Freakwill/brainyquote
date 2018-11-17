@@ -20,3 +20,22 @@
   author: Δημόκριτος
   info: >
     [Ancient Greek]Δημόκριτος《著作残篇》
+
+
+- !!python/object:pybrainyquote.Quote
+  text: Je pense, donc je suis.
+  topic: Science
+  author: Rene Descartes
+
+- !!python/object:pybrainyquote.Quote
+  text: 努力する人は希望を语り、怠ける人は不満を语る。
+  topic: Working
+  author: 井上靖
+
+
+- !!python/object:pybrainyquote.Quote
+  text: >
+    To show off what he needed anything; hide anything, what self-esteem. 
+    The so-called normal people, good people just self-defense. The real mental health, is defenseless without victimization.
+  topic: Personality
+  author: Unknown 

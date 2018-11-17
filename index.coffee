@@ -19,7 +19,7 @@ style: """
   text-align: justify
 
   quote
-    color: green
+    color: blue
     font-weight: 500
 """
 
