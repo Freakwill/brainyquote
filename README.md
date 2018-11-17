@@ -2,6 +2,7 @@
 Get quotes from brainyquote
 
 ## requirements
+* requests, bs4
 * pybrainyquote (created by the author)
 * yaml (Optional)
 
