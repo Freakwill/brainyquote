@@ -10,4 +10,7 @@ Get quotes from brainyquote.com (written in python)
 Happy to use it.
 
 ## Individuation
+
 Write it down into `quotes.yaml`, if you find a good quote.
+
+Set topic what you like in `quote.py`
