@@ -1,6 +1,10 @@
 # brainyquote
 Get quotes from brainyquote
 
+## requirements
+* pybrainyquote (created by the author)
+* yaml (Optional)
+
 ## How to use it
 Happy to use it.
 
