@@ -1,13 +1,13 @@
 
 command: "python3 brainyquote/quote.py"
 
-render: (output) -> "<quote>#{output}</quote>"
+render: (output) -> "#{output}"
 
 
 style: """
   top: 10px
   right: 10px
-  background: rgba(#fff, 0.6) url('brainyquote/flower.png') no-repeat 50% 20px
+  background: rgba(#fff, 0.7) url('brainyquote/flower.png') no-repeat 50% 20px
   background-size: 200px 84px
   border-radius: 0px
   border: 0px solid #fff
@@ -18,9 +18,13 @@ style: """
   width: 340px
   text-align: justify
 
-  quote
+  .quote
     color: blue
     font-weight: 500
+
+    .author
+      color: purple
+      text-align: right
 """
 
 update: (output, _) -> "#{output}"

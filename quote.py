@@ -14,10 +14,10 @@ try:
     # raise "for test"
     if topic:
         quote = pybrainyquote.Quote.random(topic='love')
-        print(quote)
+        print(quote.toHTML())
     else:
         quote = pybrainyquote.Quote.today()
-        print(quote)
+        print(quote.toHTML())
 
 except:
     import random
@@ -26,4 +26,4 @@ except:
     with open(_WidgetPath / 'quotes.yaml', encoding='utf-8') as fo:
         s = fo.read()
     quotes = yaml.load(s)
-    print(random.choice(quotes))
+    print(random.choice(quotes).toHTML())
