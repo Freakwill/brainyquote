@@ -14,3 +14,5 @@ Happy to use it.
 Write it down into `quotes.yaml`, if you find a good quote.
 
 Set topic what you like in `quote.py`
+
+!()[https://github.com/Freakwill/brainyquote/blob/master/screenshot.png]
