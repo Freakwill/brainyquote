@@ -11,7 +11,7 @@ Happy to use it.
 
 ## Individuation
 
-Write it down into `quotes.yaml`, if you find a good quote.
+Write it down into `quotes.yaml`, if you find a good quote. The widget will print it when offline.
 
 Set topic what you like in `quote.py`
 
