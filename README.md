@@ -1,5 +1,5 @@
 # brainyquote
-Get quotes from brainyquote.com (written in python)
+Get quotes from brainyquote.com (written in python) or local files
 
 ## requirements
 * requests, bs4
