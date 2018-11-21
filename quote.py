@@ -13,7 +13,7 @@ topic = None  # set topic what you want, for example love, health
 try:
     # raise "for test"
     if topic:
-        quote = pybrainyquote.Quote.random(topic='love')
+        quote = pybrainyquote.Quote.random(topic)
         print(quote.toHTML())
     else:
         quote = pybrainyquote.Quote.today()
