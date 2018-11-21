@@ -3,7 +3,7 @@ Get quotes from brainyquote.com (written in python) or local files
 
 ## requirements
 * requests, bs4
-* pybrainyquote (created by the author, require furl)
+* pybrainyquote (created by the author, requires furl)
 * yaml (Optional)
 
 ## How to use it
