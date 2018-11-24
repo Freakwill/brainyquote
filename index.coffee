@@ -1,7 +1,7 @@
 
 command: "python3 brainyquote/quote.py"
 
-render: (output) -> "#{output}"
+# render: (output) -> "#{output}"
 
 
 style: """
@@ -25,6 +25,7 @@ style: """
     .author
       color: purple
       text-align: right
+      font-family: cursive
 """
 
 update: (output, _) -> "#{output}"
