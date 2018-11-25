@@ -15,4 +15,4 @@ Write it down into `quotes.yaml`, if you find a good quote. The widget will prin
 
 Set topic what you like in `quote.py`
 
-![](https://github.com/Freakwill/brainyquote/blob/master/screenshot.jpg)
+![](https://github.com/Freakwill/brainyquote/blob/master/screenshot.png)
