@@ -2,28 +2,19 @@
 # -*- coding: utf-8 -*-
 
 import pathlib
-import pybrainyquote
+from pybrainyquote import Quote
 
 
 _HomePath = pathlib.Path('~').expanduser()
 _WidgetPath = _HomePath / 'Library/Application Support/Übersicht/widgets/brainyquote'
 
-topic = None  # set topic what you want, for example love, health
+topic = None  # set topic what you want, e.g. love, health
 
 try:
-    # raise "for test"
     if topic:
-        quote = pybrainyquote.Quote.random(topic)
-        print(quote.toHTML())
+        print(Quote.random(topic).toHTML())
     else:
-        quote = pybrainyquote.Quote.today()
-        print(quote.toHTML())
-
-except:
-    import random
-    import yaml
-
-    with open(_WidgetPath / 'quotes.yaml', encoding='utf-8') as fo:
-        s = fo.read()
-    quotes = yaml.load(s)
-    print(random.choice(quotes).toHTML())
+        print(Quote.today().toHTML())
+except Exception as e:
+    quote = Quote.choice_yaml(_WidgetPath / 'quotes.yaml')
+    print(quote.toHTML())
