@@ -6,6 +6,8 @@ Get quotes from brainyquote.com (written in python) or local files
 * [pybrainyquote](https://github.com/Freakwill/pybrainyquote) (created by the author, requires furl)
 * yaml (Optional)
 
+*Remark* always use the latest version of pybrainyquote
+
 ## How to use it
 Happy to use it.
 
