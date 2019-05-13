@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import warnings
+warnings.filterwarnings('ignore')
+
 import pathlib
 from pybrainyquote import Quote
 
