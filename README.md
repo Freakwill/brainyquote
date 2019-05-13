@@ -18,3 +18,12 @@ Write it down into `quotes.yaml`, if you find a good quote. The widget will prin
 Set topic what you like in `quote.py`
 
 ![](https://github.com/Freakwill/brainyquote/blob/master/screenshot1.png)
+
+
+## Remark
+Use the following code to suppress the warning.
+```
+import warnings
+
+warnings.filterwarnings('ignore')
+```
